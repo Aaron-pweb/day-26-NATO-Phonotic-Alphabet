@@ -4,7 +4,7 @@ import pandas
 df = pandas.read_csv("nato_phonetic_alphabet.csv")
 new_dictionary = {value["letter"]:value['code'] for (key,value) in df.iterrows()}
 print(new_dictionary)
-#using recursion
+#TODO 2. use recursion and handle KeyError: 
 def recursion_function():
     user_input = input("enter a word: ").upper()
     try:
@@ -14,5 +14,4 @@ def recursion_function():
         recursion_function()
     else:
         print(coded_names)
-        recursion_function()
 recursion_function()
