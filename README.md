@@ -32,7 +32,13 @@ Built as part of **Day 26** of the **"100 Days of Code: The Complete Python Pro 
 - `main.py` – The main Python script
 
 ---
+## 🚀 How to Clone and Use
 
+1. **Clone the repository:**
+```bash
+git clone https://github.com/your-username/nato-phonetic-alphabet.git
+
+---
 ## 🚀 How to Run
 
 1. Make sure Python and `pandas` are installed:
